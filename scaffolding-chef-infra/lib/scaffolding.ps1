@@ -10,7 +10,7 @@ if(!$scaffold_policy_name) {
 function Load-Scaffolding {
     $scaffold_chef_client = "stuartpreston/chef-client"
     $scaffold_chef_dk = "core/chef-dk"
-    $scaffold_policyfile_path = "$PLAN_CONTEXT\..\policyfile"
+    $scaffold_policyfile_path = "$PLAN_CONTEXT\..\policyfiles"
     $scaffold_data_bags_path = "$PLAN_CONTEXT\..\data_bags"
 
     $pkg_deps += @(
